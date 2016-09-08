@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>SvrCliente</servlet-name>
+        <servlet-class>Servlet.SvrCliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvrSucursal</servlet-name>
+        <servlet-class>Servlet.SvrSucursal</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvrStockSucursal</servlet-name>
+        <servlet-class>Servlet.SvrStockSucursal</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SvrProducto</servlet-name>
+        <servlet-class>Servlet.SvrProducto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SvrCliente</servlet-name>
+        <url-pattern>/registrarCliente.cl</url-pattern>
+        <url-pattern>/eliminarCliente.cl</url-pattern>
+        <url-pattern>/listarCliente.cl</url-pattern>
+        <url-pattern>/buscarCliente.cl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvrSucursal</servlet-name>
+        <url-pattern>/registrarSucursal.cl</url-pattern>
+        <url-pattern>/cmbSucursal.cl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvrStockSucursal</servlet-name>
+        <url-pattern>/registraStockSucursal.cl</url-pattern>
+        <url-pattern>/listarStockSucursal.cl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SvrProducto</servlet-name>
+        <url-pattern>/listarProductoLike.cl</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

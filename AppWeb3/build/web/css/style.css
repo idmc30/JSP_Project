@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-nov-2014, 8:50:51
+    Author     : Alumno
+*/
+html, body {
+}
+
+html {
+    height:100%;
+}
+
+body {
+    height:100%;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #5e5e5e;
+    background-color: #5882FA;
+}
+.boxed {
+    display:block;
+    width:1020px;
+    min-height:100%;
+    background:#fff;
+    padding:0px;
+    margin:0px auto;
+    /*box-shadow:0 0px 0px 1px rgba(0,0,0,0.1);*/
+    -webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+    -moz-box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.content {
+    display:table;
+    width:100%;
+    margin-bottom:20px;
+    height: 100%;
+    padding: 20px;
+}
+
+label {
+    float:left;
+    width:10%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    font-weight:bold;
+}
+hr{
+    width: 90%;
+}
+
+.datagrid table { border-collapse: collapse; text-align: left; width: 90%; } .datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }.datagrid table td, .datagrid table th { padding: 3px 10px; }.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #0070A8; } .datagrid table thead th:first-child { border: none; }.datagrid table tbody td { color: #00496B; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal; }.datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }.datagrid table tbody td:first-child { border-left: none; }.datagrid table tbody tr:last-child td { border-bottom: none; }.datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEF4;} .datagrid table tfoot td { padding: 0; font-size: 12px } .datagrid table tfoot td div{ padding: 2px; }.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }.datagrid table tfoot  li { display: inline; }.datagrid table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #FFFFFF;border: 1px solid #006699;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; }.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration: none;border-color: #006699; color: #FFFFFF; background: none; background-color:#00557F;}div.dhtmlx_window_active, div.dhx_modal_cover_dv { position: fixed !important; }
